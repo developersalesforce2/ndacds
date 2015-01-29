@@ -1,0 +1,262 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Master_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Mirrored from aksmultiservices.in/about.html by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 03 Apr 2011 05:47:22 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <title>NDACDS</title>
+    <link href="css/inner.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/superfish.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+    <script type="text/javascript" src="js/hoverintent.js"></script>
+
+    <script type="text/javascript" src="js/superfish.js"></script>
+
+    <script type="text/javascript">
+
+		// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+
+    </script>
+
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- CENTERCOLUMN -->
+    <div id="centerColumn">
+        <!-- HEADER -->
+        <div id="header">
+            <div id="chat">
+                <li><a href="chat.aspx">
+                    <img src="img/chat.png" width="24" height="20px" alt="chat" />&nbsp;Live Chat&nbsp;&nbsp;&nbsp;</a></li>
+                <a>
+                    <img src="img/phone.png" width="19" height="20px" alt="phone" />&nbsp;+91-522-4105722&nbsp;&nbsp;&nbsp;</a>
+            </div>
+            <div id="logo">
+            </div>
+            <!-- END OF LOGO -->
+            <div id="nav">
+                <ul class="sf-menu">
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="#">About Us</a>
+                        <ul style="text-align:left">
+                            <li><a href="companyprofile.aspx">Company Profile</a></li>
+                            <li><a href="management.aspx">Management</a></li>
+                            <li><a href="associates.aspx">Associates</a></li>
+                            <li><a href="chairmenmessage.aspx">Chairmen Message</a></li>
+                        </ul>
+                    </li>
+                    <li><a>|</a></li>
+                    
+                    <li><a href="#">Type Of Entry</a>
+                        <ul style="text-align:left;">
+                            <li><a href="#">Army</a>
+                                <ul style="text-align:left; float:right; list-style-position:inside; z-index:9;" >
+                                    <li><a href="armynationaldefenceacademy.aspx">National Defence Academy(NDA)</a></li>
+                                    <li><a href="army10+2technicalentryscheme.aspx">10+2 Technical Entry Scheme</a></li>
+                                    <li><a href="armyindianmilataryacademy.aspx">Indian Milatary Academy(IMA)</a></li>
+                                    <li><a href="armytechnicalgraduatecourseengineer.aspx">Technical Graduate Course(TGC)Engineer</a></li>
+                                    <li><a href="armyshortserviceman.aspx">Short Service Man(NT)</a></li>
+                                    <li><a href="armytechnicalgraduatecourseeduacation.aspx">Technical Graduate Course Eduacation</a></li>
+                                    <li><a href="armyshortservicecommissionwomen.aspx">Short Service Commission Women(NT)</a></li>
+                                    <li><a href="armynccspecialentryman.aspx">NCC Special Entry Man</a></li>
+                                    <li><a href="armynccspecialentrywomen.aspx">NCC Special Entry Women </a></li>
+                                    <li><a href="armyshortservicewomen.aspx">Short Service Women(TECH)</a></li>
+                                    <li><a href="armyuniversityentryscheme.aspx">University Entry Scheme(UGC)</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Navy</a>
+                                <ul style="text-align:left">
+                                    <li><a href="navyexecutivelogisticseducationbranch.aspx">Executive Logistics Education
+                                        Branch</a></li>
+                                    <li><a href="navyengineeringbranch.aspx">Engineering Branch</a></li>
+                                    <li><a href="navyelectricalofficers.aspx">Electrical Officers</a></li>
+                                    <li><a href="navymedicalofficersdoctorsdentists.aspx">Medical Officers-Doctors & Dentists</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Air Force</a>
+                                <ul style="text-align:left">
+                                    <%--<li><a href="airforceintermediate.aspx">Intermediate</a></li>--%>
+                                    <li><a href="#">Intermediate</a>
+                                        <ul style="text-align:left">
+                                            <li><a href="airforceintermediatenationaldefenceacademy.aspx">National Defence Academy(NDA)</a></li></ul>
+                                    </li>
+                                    <li><a href="#">Graduate</a>
+                                        <ul style="text-align:left">
+                                            <li><a href="airforcegraduateflyingbranch.aspx">Flying Branch</a></li>
+                                            <li><a href="airforcegraduatetechnicalbranch.aspx">technical Branch</a></li>
+                                            <li><a href="airforcegraduategrounddutybranch.aspx">Ground Duty Branch</a></li>
+                                        </ul>
+                                    </li>
+                                    <%-- <li><a href="airforceengineer.aspx">Engineer</a></li>--%>
+                                    <li><a href="#">Engineer</a>
+                                        <ul style="text-align:left">
+                                            <li><a href="airforceengineerflyingbranch.aspx">Flying Branch</a></li>
+                                            <li><a href="airforceengineertechnicalbranch.aspx">Technical Branch</a></li>
+                                            <li><a href="airforceengineergroundduty.aspx">Ground Duty</a></li>
+                                        </ul>
+                                    </li>
+                                    <%--<li><a href="airforcepostgraduate.aspx">PostGraduate</a></li>--%>
+                                    <li><a href="#">PostGraduate</a>
+                                        <ul style="text-align:left">
+                                            <li><a href="airforcegraduatetechnicalbranch.aspx">Technical Branch</a></li>
+                                            <li><a href="airforcegraduategrounddutybranch.aspx">Ground Duty Branch</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="armedforcemedicalcollege.aspx">Armed Force Medical College</a></li>
+                            <li><a href="territorialarmy.aspx">Territorial Army</a></li>
+                        </ul>
+                    </li>
+                    <li><a>|</a></li>
+                    <li><a href="contacts.aspx">Contact Us</a></li>
+                    <li><a>|</a></li>
+                   
+                    <li><a href="#">Our training</a>
+                        <ul style="text-align:left">
+                            <li><a href="serviceselectionboard.aspx">Service Selection Board (SSB)</a></li>
+                            <li><a href="nationaldefenceacademy.aspx">NationalDefence Academy(NDA)</a></li>
+                            <li><a href="combineddefenceservice.aspx">Combined Defence Service(CDS)</a></li>
+                            <li><a href="centralpoliceforce.aspx">Central Police Force</a></li>
+                            <li><a href="armycadetcollege.aspx">Army Cadet College</a></li>
+                        </ul>
+                    </li>
+                  
+                </ul>
+            </div>
+            <!-- END OF NAVIGATION BAR-->
+        </div>
+        <!-- END OF HEADER -->
+        <div id="content_area">
+            <div id="pagetitle">
+                <asp:Label ID="lblContaint" runat="server"></asp:Label>
+            </div>
+            <!-- END OF PAGETITLE -->
+            <!-- PAG - this is the area where we have the page links breadcrumb -->
+            <div id="breadcrumb">
+              <%--  <a href="Default.aspx">Home</a> About--%>
+            </div>
+            <!-- END OF BREADCRUMB -->
+            <div id="inner_content_right">
+                <h3>
+                    Quick Links</h3>
+                <ul>
+                    <li><a href="#">Photo Galary</a>
+                        <%-- <ul><li><a href ="photogalaryclassroomphoto.aspx">Class Room Photo</a></li></ul>--%>
+                    </li>
+                    <li><a href="#">Recently Selected Candidate</a> </li>
+                    <li><a href="services.aspx">Services</a></li>
+                    <li><a href="#">Useful Links</a></li>
+                    <li><a href="#">UPSC Exam Detail</a></li>
+                    <li><a href="#">Testiminials</a></li>
+                    <li><a href="#">Solved Question Paper</a></li>
+                    <li><a href="#">New Pay Scale for Armed Forces</a></li>
+                    <li><a href="#">Ranks</a></li>
+                    
+                </ul>
+                <br />
+                <br />
+                <div id="ad_content_right">
+                    <h3>
+                        Feed Back</h3>
+                    <ul>
+                        <li>
+                            <table>
+                                <tr>
+                                    <td valign="top">
+                                        <asp:Label ID="lblname" runat="server" Text="name"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="txtname" runat="server" Width="175px"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtname"
+                                            ErrorMessage="RequiredFieldValidator">Please 
+                             enter name</asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <asp:Label ID="lblemail" runat="server" Text="Email"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="txtemail" runat="server" Width="175px"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtemail"
+                                            ErrorMessage="RequiredFieldValidator">Please 
+                            enter Email</asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtemail"
+                                            ErrorMessage="RegularExpressionValidator" ValidationExpression="^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$">Please 
+                            enter correct email Address</asp:RegularExpressionValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <asp:Label ID="lblmessage" runat="server" Text="Message"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="txtmessage" runat="server" TextMode="MultiLine"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtmessage"
+                                            ErrorMessage="RequiredFieldValidator">Please 
+                            enter text</asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Button ID="bt" runat="server" Text="submit" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END OF AD_CONTENT_RIGHT -->
+            </div>
+            <!-- END OF INNER_CONTENT_RIGHT -->
+            <!-- INNER_CONTENT_LEFT -->
+            <asp:ContentPlaceHolder ID="c1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- END OF HOME_CONTENT_LEFT -->
+        </div>
+        <!-- End OF CONTENT_AREA -->
+    </div>
+    <!-- END OF CENTER_COLUMN -->
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- BOTTOM_NAV -->
+        <div id="bottom_nav">
+            <div id="nav_container1">
+                <img src="img/logo_small.png" alt="logo" width="88" height="48" align="middle" />
+                Copyright © 2011 AKS Multi Services. All Rights Reserved | <a target="_blank" href="http://www.trendsetterz.co.in/">
+                    Developed by Trendsetterz</a>
+            </div>
+            <!-- END OF NAV_CONTAINER1 -->
+            <div id="nav_container3">
+                <img src="img/social_icons.png" alt="Follow Us" border="0" usemap="#Map" />
+                <map name="Map" id="Map">
+                    <area shape="rect" coords="2,1,30,41" href="#" alt="Flickr" />
+                    <area shape="rect" coords="35,1,65,42" href="#" alt="LinkedIn" />
+                    <area shape="rect" coords="73,0,100,40" href="#" alt="Twitter" />
+                    <area shape="rect" coords="109,4,141,39" href="#" alt="Facebook" />
+                </map>
+            </div>
+            <!-- END OF NAV_CONTAINER3 -->
+        </div>
+        <!-- END OF BOTTOM_NAV -->
+    </div>
+    <!-- END OF FOOTER -->
+    </form>
+</body>
+<!-- Mirrored from aksmultiservices.in/about.html by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 03 Apr 2011 05:47:27 GMT -->
+</html>
